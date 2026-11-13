@@ -10,7 +10,7 @@ cask "gridctl" do
   name "gridctl"
   desc "Version-controlled agent setup with an MCP gateway"
   homepage "https://github.com/gridctl/gridctl"
-  version "1.0.0-rc.6"
+  version "1.0.0-rc.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -21,22 +21,22 @@ cask "gridctl" do
   on_macos do
     on_intel do
       url "https://github.com/gridctl/gridctl/releases/download/v#{version}/gridctl_#{version}_darwin_amd64.tar.gz"
-      sha256 "7cfa7aa5e08d9752c8bc3378af8c19dec640f304c01ed544324b2916e6988e1f"
+      sha256 "6fe3b5e6efacf8df835f04b153a480c656a92b5efa234fd6852ec417a3755be6"
     end
     on_arm do
       url "https://github.com/gridctl/gridctl/releases/download/v#{version}/gridctl_#{version}_darwin_arm64.tar.gz"
-      sha256 "737f1d1615db3a2ad52b2db57d6b5d15fc5057b82ee553dd68e165527941c5ef"
+      sha256 "25d204c958a7f61dc33020cbe8b343e7696635e738989fae006e9c31f45cebca"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gridctl/gridctl/releases/download/v#{version}/gridctl_#{version}_linux_amd64.tar.gz"
-      sha256 "305a28974bf661681394d6d3022dea189a9cf3f53d5e5fb63965876e485f67c4"
+      sha256 "1500e2bc4595c6742aa642bbc7ab21e58b66d8aad1b29a72edb96795a0801f2a"
     end
     on_arm do
       url "https://github.com/gridctl/gridctl/releases/download/v#{version}/gridctl_#{version}_linux_arm64.tar.gz"
-      sha256 "21d9720490a2d47580ec1cf8b83bbd3c65ecb04b92af547b1f8869cea6e8dd5e"
+      sha256 "0ca64d14879f7b7e3feccdb41c64550560cd07dd557a3cb49d6ecc9552cc16e7"
     end
   end
 
